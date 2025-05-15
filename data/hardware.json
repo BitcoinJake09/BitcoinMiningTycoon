@@ -1,0 +1,672 @@
+[
+  {
+    "name": "Home PC",
+    "basePrice": 500,
+    "currentPrice": 500,
+    "hashrate": 5000000,
+    "powerCost": 9.36,
+    "availableYear": 2009,
+    "availableMonth": 0,
+    "priceUpdateStart": "2009-01-03T00:00:00.000Z"
+  },
+  {
+    "name": "Intel Pentium 4",
+    "basePrice": 200,
+    "currentPrice": 200,
+    "hashrate": 10000000,
+    "powerCost": 6.48,
+    "availableYear": 2009,
+    "availableMonth": 0,
+    "priceUpdateStart": "2009-01-03T00:00:00.000Z"
+  },
+  {
+    "name": "Intel Core i7-920",
+    "basePrice": 300,
+    "currentPrice": 300,
+    "hashrate": 50000000,
+    "powerCost": 9.36,
+    "availableYear": 2009,
+    "availableMonth": 0,
+    "priceUpdateStart": "2009-01-03T00:00:00.000Z"
+  },
+  {
+    "name": "AMD Phenom II X4",
+    "basePrice": 250,
+    "currentPrice": 250,
+    "hashrate": 40000000,
+    "powerCost": 9,
+    "availableYear": 2009,
+    "availableMonth": 5,
+    "priceUpdateStart": "2009-06-01T00:00:00.000Z"
+  },
+  {
+    "name": "NVIDIA GeForce GTX 280",
+    "basePrice": 400,
+    "currentPrice": 400,
+    "hashrate": 200000000,
+    "powerCost": 17.28,
+    "availableYear": 2009,
+    "availableMonth": 0,
+    "priceUpdateStart": "2009-01-03T00:00:00.000Z"
+  },
+  {
+    "name": "AMD Radeon HD 5970",
+    "basePrice": 700,
+    "currentPrice": 700,
+    "hashrate": 800000000,
+    "powerCost": 21.17,
+    "availableYear": 2010,
+    "availableMonth": 0,
+    "priceUpdateStart": "2010-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "AMD Radeon HD 6990",
+    "basePrice": 800,
+    "currentPrice": 800,
+    "hashrate": 1500000000,
+    "powerCost": 27,
+    "availableYear": 2011,
+    "availableMonth": 2,
+    "priceUpdateStart": "2011-03-01T00:00:00.000Z"
+  },
+  {
+    "name": "Butterfly Labs FPGA Single",
+    "basePrice": 600,
+    "currentPrice": 600,
+    "hashrate": 832000000,
+    "powerCost": 5.76,
+    "availableYear": 2012,
+    "availableMonth": 5,
+    "priceUpdateStart": "2012-06-01T00:00:00.000Z"
+  },
+  {
+    "name": "Avalon V1",
+    "basePrice": 1300,
+    "currentPrice": 1300,
+    "hashrate": 60000000000,
+    "powerCost": 43.2,
+    "availableYear": 2013,
+    "availableMonth": 0,
+    "priceUpdateStart": "2013-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer U1",
+    "basePrice": 30,
+    "currentPrice": 30,
+    "hashrate": 1600000000,
+    "powerCost": 0.144,
+    "availableYear": 2013,
+    "availableMonth": 0,
+    "priceUpdateStart": "2013-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer U2",
+    "basePrice": 50,
+    "currentPrice": 50,
+    "hashrate": 2000000000,
+    "powerCost": 0.1584,
+    "availableYear": 2013,
+    "availableMonth": 5,
+    "priceUpdateStart": "2013-06-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer U3",
+    "basePrice": 100,
+    "currentPrice": 100,
+    "hashrate": 63000000000,
+    "powerCost": 4.536,
+    "availableYear": 2014,
+    "availableMonth": 0,
+    "priceUpdateStart": "2014-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S1",
+    "basePrice": 300,
+    "currentPrice": 300,
+    "hashrate": 180000000000,
+    "powerCost": 25.92,
+    "availableYear": 2013,
+    "availableMonth": 10,
+    "priceUpdateStart": "2013-11-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S2",
+    "basePrice": 2000,
+    "currentPrice": 2000,
+    "hashrate": 1000000000000,
+    "powerCost": 79.2,
+    "availableYear": 2014,
+    "availableMonth": 2,
+    "priceUpdateStart": "2014-03-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S3",
+    "basePrice": 400,
+    "currentPrice": 400,
+    "hashrate": 441000000000,
+    "powerCost": 25.92,
+    "availableYear": 2014,
+    "availableMonth": 6,
+    "priceUpdateStart": "2014-07-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S4",
+    "basePrice": 1400,
+    "currentPrice": 1400,
+    "hashrate": 2000000000000,
+    "powerCost": 100.8,
+    "availableYear": 2014,
+    "availableMonth": 9,
+    "priceUpdateStart": "2014-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S5",
+    "basePrice": 370,
+    "currentPrice": 370,
+    "hashrate": 1155000000000,
+    "powerCost": 42.48,
+    "availableYear": 2014,
+    "availableMonth": 11,
+    "priceUpdateStart": "2014-12-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S7",
+    "basePrice": 480,
+    "currentPrice": 480,
+    "hashrate": 4730000000000,
+    "powerCost": 93.096,
+    "availableYear": 2015,
+    "availableMonth": 8,
+    "priceUpdateStart": "2015-09-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S9",
+    "basePrice": 2000,
+    "currentPrice": 2000,
+    "hashrate": 13500000000000,
+    "powerCost": 95.256,
+    "availableYear": 2016,
+    "availableMonth": 5,
+    "priceUpdateStart": "2016-06-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S9i",
+    "basePrice": 2100,
+    "currentPrice": 2100,
+    "hashrate": 14000000000000,
+    "powerCost": 95.04,
+    "availableYear": 2018,
+    "availableMonth": 4,
+    "priceUpdateStart": "2018-05-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S9j",
+    "basePrice": 1800,
+    "currentPrice": 1800,
+    "hashrate": 14500000000000,
+    "powerCost": 97.2,
+    "availableYear": 2018,
+    "availableMonth": 7,
+    "priceUpdateStart": "2018-08-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer T9",
+    "basePrice": 1500,
+    "currentPrice": 1500,
+    "hashrate": 10500000000000,
+    "powerCost": 103.104,
+    "availableYear": 2017,
+    "availableMonth": 0,
+    "priceUpdateStart": "2017-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer R4",
+    "basePrice": 1000,
+    "currentPrice": 1000,
+    "hashrate": 8600000000000,
+    "powerCost": 60.84,
+    "availableYear": 2016,
+    "availableMonth": 7,
+    "priceUpdateStart": "2016-08-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S11",
+    "basePrice": 1200,
+    "currentPrice": 1200,
+    "hashrate": 19500000000000,
+    "powerCost": 110.16,
+    "availableYear": 2018,
+    "availableMonth": 10,
+    "priceUpdateStart": "2018-11-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S15",
+    "basePrice": 1500,
+    "currentPrice": 1500,
+    "hashrate": 28000000000000,
+    "powerCost": 114.912,
+    "availableYear": 2018,
+    "availableMonth": 11,
+    "priceUpdateStart": "2018-12-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer T15",
+    "basePrice": 1200,
+    "currentPrice": 1200,
+    "hashrate": 23000000000000,
+    "powerCost": 110.952,
+    "availableYear": 2018,
+    "availableMonth": 11,
+    "priceUpdateStart": "2018-12-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S17",
+    "basePrice": 2500,
+    "currentPrice": 2500,
+    "hashrate": 53000000000000,
+    "powerCost": 171.72,
+    "availableYear": 2019,
+    "availableMonth": 3,
+    "priceUpdateStart": "2019-04-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S17 Pro",
+    "basePrice": 3000,
+    "currentPrice": 3000,
+    "hashrate": 56000000000000,
+    "powerCost": 150.768,
+    "availableYear": 2019,
+    "availableMonth": 3,
+    "priceUpdateStart": "2019-04-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer T17",
+    "basePrice": 2000,
+    "currentPrice": 2000,
+    "hashrate": 40000000000000,
+    "powerCost": 158.4,
+    "availableYear": 2019,
+    "availableMonth": 4,
+    "priceUpdateStart": "2019-05-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S19",
+    "basePrice": 10000,
+    "currentPrice": 10000,
+    "hashrate": 95000000000000,
+    "powerCost": 234,
+    "availableYear": 2020,
+    "availableMonth": 4,
+    "priceUpdateStart": "2020-05-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S19 Pro",
+    "basePrice": 12000,
+    "currentPrice": 12000,
+    "hashrate": 110000000000000,
+    "powerCost": 234,
+    "availableYear": 2020,
+    "availableMonth": 5,
+    "priceUpdateStart": "2020-06-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S19j",
+    "basePrice": 9000,
+    "currentPrice": 9000,
+    "hashrate": 90000000000000,
+    "powerCost": 234,
+    "availableYear": 2021,
+    "availableMonth": 5,
+    "priceUpdateStart": "2021-06-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S19j Pro",
+    "basePrice": 11000,
+    "currentPrice": 11000,
+    "hashrate": 104000000000000,
+    "powerCost": 220.896,
+    "availableYear": 2021,
+    "availableMonth": 7,
+    "priceUpdateStart": "2021-08-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S19 XP",
+    "basePrice": 10000,
+    "currentPrice": 10000,
+    "hashrate": 140000000000000,
+    "powerCost": 216.72,
+    "availableYear": 2022,
+    "availableMonth": 0,
+    "priceUpdateStart": "2022-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S19 XP Hyd",
+    "basePrice": 14000,
+    "currentPrice": 14000,
+    "hashrate": 255000000000000,
+    "powerCost": 381.888,
+    "availableYear": 2022,
+    "availableMonth": 9,
+    "priceUpdateStart": "2022-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S21",
+    "basePrice": 5000,
+    "currentPrice": 5000,
+    "hashrate": 200000000000000,
+    "powerCost": 252,
+    "availableYear": 2024,
+    "availableMonth": 0,
+    "priceUpdateStart": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Antminer S21 Hyd",
+    "basePrice": 15000,
+    "currentPrice": 15000,
+    "hashrate": 335000000000000,
+    "powerCost": 360,
+    "availableYear": 2025,
+    "availableMonth": 0,
+    "priceUpdateStart": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M10",
+    "basePrice": 1500,
+    "currentPrice": 1500,
+    "hashrate": 33000000000000,
+    "powerCost": 154.44,
+    "availableYear": 2018,
+    "availableMonth": 8,
+    "priceUpdateStart": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M20S",
+    "basePrice": 2000,
+    "currentPrice": 2000,
+    "hashrate": 68000000000000,
+    "powerCost": 241.92,
+    "availableYear": 2019,
+    "availableMonth": 7,
+    "priceUpdateStart": "2019-08-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M21S",
+    "basePrice": 1800,
+    "currentPrice": 1800,
+    "hashrate": 56000000000000,
+    "powerCost": 241.92,
+    "availableYear": 2019,
+    "availableMonth": 5,
+    "priceUpdateStart": "2019-06-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M30S",
+    "basePrice": 2000,
+    "currentPrice": 2000,
+    "hashrate": 88000000000000,
+    "powerCost": 240.768,
+    "availableYear": 2020,
+    "availableMonth": 2,
+    "priceUpdateStart": "2020-03-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M30S++",
+    "basePrice": 3000,
+    "currentPrice": 3000,
+    "hashrate": 112000000000000,
+    "powerCost": 249.984,
+    "availableYear": 2020,
+    "availableMonth": 9,
+    "priceUpdateStart": "2020-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M31S",
+    "basePrice": 2500,
+    "currentPrice": 2500,
+    "hashrate": 70000000000000,
+    "powerCost": 231.84,
+    "availableYear": 2020,
+    "availableMonth": 3,
+    "priceUpdateStart": "2020-04-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M50S",
+    "basePrice": 3000,
+    "currentPrice": 3000,
+    "hashrate": 126000000000000,
+    "powerCost": 235.872,
+    "availableYear": 2022,
+    "availableMonth": 6,
+    "priceUpdateStart": "2022-07-01T00:00:00.000Z"
+  },
+  {
+    "name": "Avalon 741",
+    "basePrice": 900,
+    "currentPrice": 900,
+    "hashrate": 7300000000000,
+    "powerCost": 82.8,
+    "availableYear": 2017,
+    "availableMonth": 3,
+    "priceUpdateStart": "2017-04-01T00:00:00.000Z"
+  },
+  {
+    "name": "Avalon 821",
+    "basePrice": 1100,
+    "currentPrice": 1100,
+    "hashrate": 11000000000000,
+    "powerCost": 86.4,
+    "availableYear": 2018,
+    "availableMonth": 1,
+    "priceUpdateStart": "2018-02-01T00:00:00.000Z"
+  },
+  {
+    "name": "Avalon 1066",
+    "basePrice": 2000,
+    "currentPrice": 2000,
+    "hashrate": 50000000000000,
+    "powerCost": 234,
+    "availableYear": 2019,
+    "availableMonth": 9,
+    "priceUpdateStart": "2019-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Avalon 1246",
+    "basePrice": 4000,
+    "currentPrice": 4000,
+    "hashrate": 90000000000000,
+    "powerCost": 246.24,
+    "availableYear": 2021,
+    "availableMonth": 0,
+    "priceUpdateStart": "2021-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Avalon A1266",
+    "basePrice": 5000,
+    "currentPrice": 5000,
+    "hashrate": 100000000000000,
+    "powerCost": 252,
+    "availableYear": 2021,
+    "availableMonth": 9,
+    "priceUpdateStart": "2021-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "GekkoScience 2-Pac",
+    "basePrice": 60,
+    "currentPrice": 60,
+    "hashrate": 15000000000,
+    "powerCost": 0.36,
+    "availableYear": 2016,
+    "availableMonth": 0,
+    "priceUpdateStart": "2016-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "GekkoScience NewPac",
+    "basePrice": 100,
+    "currentPrice": 100,
+    "hashrate": 45000000000,
+    "powerCost": 0.72,
+    "availableYear": 2018,
+    "availableMonth": 0,
+    "priceUpdateStart": "2018-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Spondoolies SP20",
+    "basePrice": 1000,
+    "currentPrice": 1000,
+    "hashrate": 1700000000000,
+    "powerCost": 86.4,
+    "availableYear": 2015,
+    "availableMonth": 0,
+    "priceUpdateStart": "2015-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Spondoolies SP30",
+    "basePrice": 3000,
+    "currentPrice": 3000,
+    "hashrate": 4500000000000,
+    "powerCost": 172.8,
+    "availableYear": 2015,
+    "availableMonth": 2,
+    "priceUpdateStart": "2015-03-01T00:00:00.000Z"
+  },
+  {
+    "name": "BitFury BF3500",
+    "basePrice": 1500,
+    "currentPrice": 1500,
+    "hashrate": 3500000000000,
+    "powerCost": 172.8,
+    "availableYear": 2014,
+    "availableMonth": 0,
+    "priceUpdateStart": "2014-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "BitFury Tardis",
+    "basePrice": 4000,
+    "currentPrice": 4000,
+    "hashrate": 80000000000000,
+    "powerCost": 453.6,
+    "availableYear": 2019,
+    "availableMonth": 0,
+    "priceUpdateStart": "2019-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Innosilicon T2T",
+    "basePrice": 1500,
+    "currentPrice": 1500,
+    "hashrate": 30000000000000,
+    "powerCost": 158.4,
+    "availableYear": 2018,
+    "availableMonth": 7,
+    "priceUpdateStart": "2018-08-01T00:00:00.000Z"
+  },
+  {
+    "name": "Innosilicon T3+",
+    "basePrice": 2500,
+    "currentPrice": 2500,
+    "hashrate": 57000000000000,
+    "powerCost": 237.6,
+    "availableYear": 2019,
+    "availableMonth": 4,
+    "priceUpdateStart": "2019-05-01T00:00:00.000Z"
+  },
+  {
+    "name": "Ebang Ebit E9",
+    "basePrice": 800,
+    "currentPrice": 800,
+    "hashrate": 6300000000000,
+    "powerCost": 63.36,
+    "availableYear": 2017,
+    "availableMonth": 0,
+    "priceUpdateStart": "2017-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Ebang Ebit E11++",
+    "basePrice": 2000,
+    "currentPrice": 2000,
+    "hashrate": 44000000000000,
+    "powerCost": 142.56,
+    "availableYear": 2018,
+    "availableMonth": 10,
+    "priceUpdateStart": "2018-11-01T00:00:00.000Z"
+  },
+  {
+    "name": "MicroBT Whatsminer D1",
+    "basePrice": 2500,
+    "currentPrice": 2500,
+    "hashrate": 48000000000000,
+    "powerCost": 158.4,
+    "availableYear": 2018,
+    "availableMonth": 10,
+    "priceUpdateStart": "2018-11-01T00:00:00.000Z"
+  },
+  {
+    "name": "Canaan Avalon Nano3",
+    "basePrice": 200,
+    "currentPrice": 200,
+    "hashrate": 3600000000,
+    "powerCost": 0.216,
+    "availableYear": 2020,
+    "availableMonth": 0,
+    "priceUpdateStart": "2020-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "NerdQaxe++",
+    "basePrice": 400,
+    "currentPrice": 400,
+    "hashrate": 4800000000000,
+    "powerCost": 5.184,
+    "availableYear": 2024,
+    "availableMonth": 0,
+    "priceUpdateStart": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Bitdeer A2",
+    "basePrice": 6000,
+    "currentPrice": 6000,
+    "hashrate": 220000000000000,
+    "powerCost": 261.36,
+    "availableYear": 2024,
+    "availableMonth": 5,
+    "priceUpdateStart": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M60",
+    "basePrice": 7000,
+    "currentPrice": 7000,
+    "hashrate": 170000000000000,
+    "powerCost": 243.576,
+    "availableYear": 2023,
+    "availableMonth": 9,
+    "priceUpdateStart": "2023-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Whatsminer M63",
+    "basePrice": 15000,
+    "currentPrice": 15000,
+    "hashrate": 366000000000000,
+    "powerCost": 524.448,
+    "availableYear": 2024,
+    "availableMonth": 0,
+    "priceUpdateStart": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Avalon A1346",
+    "basePrice": 6000,
+    "currentPrice": 6000,
+    "hashrate": 110000000000000,
+    "powerCost": 237.6,
+    "availableYear": 2022,
+    "availableMonth": 10,
+    "priceUpdateStart": "2022-11-01T00:00:00.000Z"
+  },
+  {
+    "name": "Avalon A1366",
+    "basePrice": 7000,
+    "currentPrice": 7000,
+    "hashrate": 130000000000000,
+    "powerCost": 234,
+    "availableYear": 2023,
+    "availableMonth": 2,
+    "priceUpdateStart": "2023-03-01T00:00:00.000Z"
+  }
+]

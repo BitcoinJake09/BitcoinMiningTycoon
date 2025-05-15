@@ -1,0 +1,688 @@
+[
+  {
+    "date": "2008-10-31",
+    "event": "Satoshi Nakamoto Publishes Bitcoin Whitepaper",
+    "effect": null
+  },
+  {
+    "date": "2009-01-03",
+    "event": "Bitcoin Genesis Block Mined",
+    "effect": null
+  },
+  {
+    "date": "2009-01-11",
+    "event": "Hal Finney Runs Bitcoin Software",
+    "effect": null
+  },
+  {
+    "date": "2009-01-12",
+    "event": "First Bitcoin Transaction to Hal Finney",
+    "effect": null
+  },
+  {
+    "date": "2009-10-05",
+    "event": "First Exchange Rate: 1 BTC = $0.00076",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.0
+    }
+  },
+  {
+    "date": "2010-02-06",
+    "event": "Bitcoin Market Exchange Launches",
+    "effect": null
+  },
+  {
+    "date": "2010-05-22",
+    "event": "Bitcoin Pizza Day: 10,000 BTC for $41",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.1
+    }
+  },
+  {
+    "date": "2010-07-17",
+    "event": "Mt. Gox Exchange Launches",
+    "effect": null
+  },
+  {
+    "date": "2010-12-07",
+    "event": "Bitcoin Reaches $0.50",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.1
+    }
+  },
+  {
+    "date": "2010-12-12",
+    "event": "Slush Pool, the first mining pool, launches.",
+    "effect": {
+      "type": "unlock_mining_pools"
+    }
+  },
+  {
+    "date": "2011-02-09",
+    "event": "Bitcoin Reaches $1",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2011-04-23",
+    "event": "Satoshi Nakamoto’s Last Known Message",
+    "effect": null
+  },
+  {
+    "date": "2011-06-13",
+    "event": "Bitcoin Reaches $10",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2011-06-19",
+    "event": "Mt. Gox Hacked: 2,000 BTC Stolen",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.8
+    }
+  },
+  {
+    "date": "2012-08-17",
+    "event": "Bitcoin Foundation Founded",
+    "effect": null
+  },
+  {
+    "date": "2012-11-28",
+    "event": "First Bitcoin Halving: 25 BTC Reward",
+    "effect": {
+      "type": "halving"
+    }
+  },
+  {
+    "date": "2013-02-28",
+    "event": "Bitcoin Reaches $30",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2013-04-10",
+    "event": "Bitcoin Reaches $100",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.5
+    }
+  },
+  {
+    "date": "2013-05-02",
+    "event": "First Bitcoin ATM Installed",
+    "effect": null
+  },
+  {
+    "date": "2013-10-02",
+    "event": "Silk Road Shutdown by FBI",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.9
+    }
+  },
+  {
+    "date": "2013-11-19",
+    "event": "Bitcoin Reaches $500",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2013-11-29",
+    "event": "Bitcoin Reaches $1,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 2.0
+    }
+  },
+  {
+    "date": "2013-12-05",
+    "event": "China Bans Financial Institutions from Bitcoin",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.8
+    }
+  },
+  {
+    "date": "2014-02-07",
+    "event": "Mt. Gox Suspends Withdrawals",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.7
+    }
+  },
+  {
+    "date": "2014-02-24",
+    "event": "Mt. Gox Collapses: 850,000 BTC Lost",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.6
+    }
+  },
+  {
+    "date": "2014-03-25",
+    "event": "IRS Classifies Bitcoin as Property",
+    "effect": null
+  },
+  {
+    "date": "2014-06-03",
+    "event": "Dish Network Accepts Bitcoin",
+    "effect": null
+  },
+  {
+    "date": "2014-09-23",
+    "event": "PayPal Integrates Bitcoin Payments",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.1
+    }
+  },
+  {
+    "date": "2015-01-14",
+    "event": "Bitstamp Hacked: 19,000 BTC Stolen",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.9
+    }
+  },
+  {
+    "date": "2015-08-18",
+    "event": "Bitcoin XT Fork Proposed",
+    "effect": null
+  },
+  {
+    "date": "2015-10-31",
+    "event": "Bitcoin Featured on The Economist Cover",
+    "effect": null
+  },
+  {
+    "date": "2016-01-03",
+    "event": "Bitcoin Reaches $1,000 Again",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2016-07-09",
+    "event": "Second Bitcoin Halving: 12.5 BTC Reward",
+    "effect": {
+      "type": "halving"
+    }
+  },
+  {
+    "date": "2016-08-02",
+    "event": "Bitfinex Hacked: 120,000 BTC Stolen",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.8
+    }
+  },
+  {
+    "date": "2017-01-03",
+    "event": "Bitcoin Reaches $1,000 for Third Time",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2017-03-10",
+    "event": "SEC Rejects Winklevoss Bitcoin ETF",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.9
+    }
+  },
+  {
+    "date": "2017-07-20",
+    "event": "BIP 91 Locks In for SegWit",
+    "effect": null
+  },
+  {
+    "date": "2017-08-01",
+    "event": "Bitcoin Cash Hard Fork",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.1
+    }
+  },
+  {
+    "date": "2017-08-24",
+    "event": "SegWit Activates on Bitcoin Network",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.1
+    }
+  },
+  {
+    "date": "2017-10-24",
+    "event": "Bitcoin Gold Hard Fork",
+    "effect": null
+  },
+  {
+    "date": "2017-11-29",
+    "event": "Bitcoin Reaches $10,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.5
+    }
+  },
+  {
+    "date": "2017-12-10",
+    "event": "CBOE Launches Bitcoin Futures",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2017-12-17",
+    "event": "Bitcoin Hits All-Time High: ~$20,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2018-01-16",
+    "event": "Bitcoin Drops Below $10,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.8
+    }
+  },
+  {
+    "date": "2018-11-15",
+    "event": "Bitcoin Cash Forks into BCH and BSV",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.9
+    }
+  },
+  {
+    "date": "2018-12-15",
+    "event": "Bitcoin Hits Low of $3,200",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.7
+    }
+  },
+  {
+    "date": "2019-02-08",
+    "event": "Lightning Network Gains Traction",
+    "effect": null
+  },
+  {
+    "date": "2019-06-26",
+    "event": "Bitcoin Reaches $13,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2019-07-02",
+    "event": "Bitcoin Drops Below $10,000 Again",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.9
+    }
+  },
+  {
+    "date": "2019-10-25",
+    "event": "China Endorses Blockchain Technology",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2020-01-14",
+    "event": "CME Launches Bitcoin Options",
+    "effect": null
+  },
+  {
+    "date": "2020-05-11",
+    "event": "Third Bitcoin Halving: 6.25 BTC Reward",
+    "effect": {
+      "type": "halving"
+    }
+  },
+  {
+    "date": "2020-08-18",
+    "event": "Bitcoin Reaches $12,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2020-10-20",
+    "event": "PayPal Announces Bitcoin Support",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2020-11-30",
+    "event": "Bitcoin Reaches $19,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2020-12-16",
+    "event": "Bitcoin Breaks $20,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2021-01-08",
+    "event": "Bitcoin Reaches $40,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2021-02-08",
+    "event": "Tesla Buys $1.5B in Bitcoin",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.5
+    }
+  },
+  {
+    "date": "2021-02-16",
+    "event": "Bitcoin Reaches $50,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2021-04-14",
+    "event": "Bitcoin Hits All-Time High: $64,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2021-05-19",
+    "event": "China Bans Bitcoin Mining",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.8
+    }
+  },
+  {
+    "date": "2021-06-08",
+    "event": "El Salvador Announces Bitcoin as Legal Tender",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2021-09-07",
+    "event": "El Salvador Officially Adopts Bitcoin",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.1
+    }
+  },
+  {
+    "date": "2021-10-19",
+    "event": "First Bitcoin ETF (BITO) Launches",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2021-11-10",
+    "event": "Bitcoin Reaches $69,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2021-11-14",
+    "event": "Taproot Upgrade Activates",
+    "effect": null
+  },
+  {
+    "date": "2022-01-21",
+    "event": "Bitcoin Drops Below $40,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.8
+    }
+  },
+  {
+    "date": "2022-06-18",
+    "event": "Bitcoin Falls Below $20,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.7
+    }
+  },
+  {
+    "date": "2022-11-09",
+    "event": "FTX Exchange Collapses",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.6
+    }
+  },
+  {
+    "date": "2022-11-11",
+    "event": "Bitcoin Hits $15,000 Low",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 0.8
+    }
+  },
+  {
+    "date": "2023-01-13",
+    "event": "Bitcoin Recovers to $20,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2023-03-17",
+    "event": "Bitcoin Reaches $25,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2023-04-26",
+    "event": "First Mover Americas Report on Bitcoin",
+    "effect": null
+  },
+  {
+    "date": "2023-06-15",
+    "event": "BlackRock Files for Bitcoin ETF",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2023-10-23",
+    "event": "Bitcoin Reaches $35,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2023-12-05",
+    "event": "Bitcoin Surpasses $40,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2024-01-10",
+    "event": "SEC Approves Spot Bitcoin ETFs",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.5
+    }
+  },
+  {
+    "date": "2024-02-28",
+    "event": "Bitcoin Reaches $60,000 Again",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2024-03-18",
+    "event": "Fourth Bitcoin Halving: 3.125 BTC Reward",
+    "effect": {
+      "type": "halving"
+    }
+  },
+  {
+    "date": "2024-03-25",
+    "event": "Bitcoin Hits $70,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2024-04-10",
+    "event": "Major Bank Adopts Bitcoin Custody",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2024-06-15",
+    "event": "Bitcoin Reaches $80,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2024-08-20",
+    "event": "Global Bitcoin Conference Held",
+    "effect": null
+  },
+  {
+    "date": "2024-10-01",
+    "event": "Second Country Adopts Bitcoin as Legal Tender",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2024-11-15",
+    "event": "Bitcoin Surpasses $90,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2025-01-01",
+    "event": "Speculative: Bitcoin ETF Gains Mass Adoption",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.5
+    }
+  },
+  {
+    "date": "2025-02-10",
+    "event": "Speculative: Bitcoin Mining Goes 100% Renewable",
+    "effect": null
+  },
+  {
+    "date": "2025-03-15",
+    "event": "Speculative: Bitcoin Reaches $95,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  },
+  {
+    "date": "2025-04-27",
+    "event": "Speculative: Bitcoin Hits $100,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.5
+    }
+  },
+  {
+    "date": "2025-06-01",
+    "event": "Speculative: Major Tech Firm Accepts Bitcoin",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.2
+    }
+  },
+  {
+    "date": "2025-07-15",
+    "event": "Speculative: Bitcoin Reaches $110,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.4
+    }
+  },
+  {
+    "date": "2025-09-10",
+    "event": "Speculative: Quantum-Resistant Bitcoin Upgrade",
+    "effect": null
+  },
+  {
+    "date": "2025-10-20",
+    "event": "Speculative: Bitcoin Hits $120,000",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.5
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "event": "Speculative: Fifth Bitcoin Halving Early Talks",
+    "effect": null
+  },
+  {
+    "date": "2025-12-15",
+    "event": "Speculative: Bitcoin Adopted by Third Country",
+    "effect": {
+      "type": "price_multiplier",
+      "value": 1.3
+    }
+  }
+]

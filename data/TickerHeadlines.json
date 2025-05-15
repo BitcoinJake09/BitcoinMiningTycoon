@@ -1,0 +1,24 @@
+[
+    {
+        "text": "Bitcoin adoption grows worldwide!",
+        "startDate": "2009-01-03"
+    },
+    {
+        "text": "Miners face increasing difficulty as more join the network.",
+        "startDate": "2010-01-01",
+        "endDate": "2015-12-31"
+    },
+    {
+        "text": "Crypto markets are volatile—trade wisely!",
+        "startDate": "2011-06-01"
+    },
+    {
+        "text": "New hardware innovations are on the horizon.",
+        "startDate": "2013-01-01",
+        "endDate": "2020-12-31"
+    },
+    {
+        "text": "Governments debate crypto regulations.",
+        "startDate": "2017-01-01"
+    }
+]

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Mining Tycoon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="splash-screen" class="splash-screen">
+        <h1>Bitcoin Mining Tycoon</h1>
+        <p>An informative historical Bitcoin mining simulator</p>
+        <p id="loading-message" style="display: none;">Loading...</p>
+        <button id="start-button" onclick="startGame()" disabled>START GAME</button>
+    </div>
+    <div class="container" id="game-container" style="display: none;">
+        <h1>Bitcoin Mining Tycoon</h1>
+        <div id="news-ticker" class="news-ticker">
+            <span id="ticker-text"></span>
+        </div>
+        <div class="stats section">
+            <p>DATE: <span id="date">January 3, 2009</span></p>
+            <p>BTC PRICE: $<span id="btc-price">0.00</span></p>
+            <p>BTC BALANCE: <span id="btc-balance">0.0000</span> BTC</p>
+            <p>USD BALANCE: <span id="usd-balance">$0.00</span></p>
+            <p>HASHRATE: <span id="hashrate">0 MH/s</span></p>
+            <p>ELECTRICITY BILL: $<span id="electricity-bill">0</span> due in <span id="bill-days">30</span> days</p>
+            <button id="speed-button" onclick="toggleSpeed()">SPEED: Normal</button>
+            <button id="mute-sound-button" onclick="toggleMuteMiningSound()">Mute Sound</button>
+        </div>
+        <div class="chart section">
+            <h2>BTC PRICE CHART</h2>
+            <div class="chart-controls">
+                <button onclick="setChartTimeframe('30days')">30 DAYS</button>
+                <button onclick="setChartTimeframe('monthly')">MONTHLY</button>
+                <button onclick="setChartTimeframe('yearly')">YEARLY</button>
+                <button onclick="setChartTimeframe('all')">ALL TIME</button>
+            </div>
+            <canvas id="price-chart"></canvas>
+        </div>
+        <div class="miners section">
+            <h2>YOUR MINERS</h2>
+            <ul id="miner-inventory"></ul>
+        </div>
+        <div class="mining-pool section" id="mining-pool-section" style="display: none;">
+            <h2>MINING POOL</h2>
+            <p id="mining-pool-status">You are not in a mining pool.</p>
+            <button id="join-pool-button" onclick="joinMiningPool()">JOIN SLUSH POOL (2% FEE)</button>
+            <button id="leave-pool-button" onclick="leaveMiningPool()" style="display: none;">LEAVE POOL</button>
+        </div>
+        <div class="shop section">
+            <h2>HARDWARE SHOP</h2>
+            <ul id="hardware-shop"></ul>
+        </div>
+        <div class="actions section">
+            <label>SELL BTC: <input type="number" id="btc-sell-amount" step="0.00000001" min="0" placeholder="0.00000001" oninput="updateSellPreview()"></label>
+            <span id="sell-preview"></span>
+            <button id="sell-btc-button" onclick="sellBTC()">SELL</button>
+            <br>
+            <label>BUY BTC: <input type="number" id="btc-buy-amount" step="0.00000001" min="0" placeholder="0.00000001" oninput="updateBuyPreview()"></label>
+            <span id="buy-preview"></span>
+            <button id="buy-btc-button" onclick="buyBTC()">BUY</button>
+        </div>
+        <div class="restart section">
+            <button onclick="restartGame()">RESTART GAME</button>
+        </div>
+    </div>
+    <div id="sell-miner-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>SELL MINERS</h2>
+            <p id="sell-miner-name"></p>
+            <label>AMOUNT TO SELL: <input type="number" id="sell-miner-amount" min="0"></label>
+            <button onclick="confirmSellMiners()">SELL</button>
+            <button onclick="closeSellModal()">CANCEL</button>
+        </div>
+    </div>
+    <div id="repair-miner-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>REPAIR MINERS</h2>
+            <p id="repair-miner-name"></p>
+            <p id="repair-cost">Cost: $0</p>
+            <button onclick="confirmRepairMiners()">CONFIRM</button>
+            <button onclick="closeRepairModal()">CANCEL</button>
+        </div>
+    </div>
+    <div id="lose-screen" class="splash-screen" style="display: none;">
+        <h1>GAME OVER</h1>
+        <p>You've run out of funds! Better luck next time.</p>
+        <button onclick="restartGame()">RESTART GAME</button>
+    </div>
+    <div id="congrats-screen" class="splash-screen" style="display: none;">
+        <h1>CONGRATULATIONS!</h1>
+        <p>You've reached $1,000,000! You're a Bitcoin mining tycoon!</p>
+        <button onclick="closeCongratsScreen()">CONTINUE</button>
+    </div>
+    <div id="notification-container"></div>
+    <audio id="mining-sound" src="data/mining-sound.mp3" preload="auto"></audio>
+    <script defer src="game.js"></script>
+</body>
+</html>
