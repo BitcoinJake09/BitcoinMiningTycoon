@@ -1,4 +1,8 @@
 # Bitcoin Mining Tycoon
+
+Donations to Dev appreciated!
+3MvMfNAyyBY9Cfd1obcpEd2i2cnUsfL89D
+
 Bitcoin Mining Tycoon is a single-player simulation game that recreates the history of Bitcoin mining from its launch in 2009 to the present, with the ability to model future trends. Built with real-world historical data and realistic mechanics, this project aims to be one of the most accurate Bitcoin mining simulators ever created. As more historical data is integrated, its precision and depth will continue to grow, making it a powerful tool for Bitcoin enthusiasts, educators, and researchers.
 Features
 Historical Accuracy: Simulates Bitcoin mining with real-world data, including:
