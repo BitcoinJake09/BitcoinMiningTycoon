@@ -240,6 +240,18 @@ button:hover:not(:disabled) {
     transition: color 0.5s ease;
 }
 
+.donation-section {
+    text-align: center;
+    margin: 20px 0;
+}
+.donation-section p {
+    margin: 5px 0;
+}
+.donation-section p:nth-child(2) {
+    font-family: monospace;
+    word-break: break-all;
+}
+
 .highlight {
     color: #0f0 !important;
     animation: flash 0.5s;
