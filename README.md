@@ -34,7 +34,7 @@ Installation
 Clone the repository:
 bash
 
-git clone [https://github.com/yourusername/bitcoin-mining-tycoon.git](https://github.com/BitcoinJake09/BitcoinMiningTycoon.git)
+git clone [https://github.com/BitcoinJake09/bitcoin-mining-tycoon.git](https://github.com/BitcoinJake09/BitcoinMiningTycoon.git)
 
 Navigate to the project directory:
 bash
